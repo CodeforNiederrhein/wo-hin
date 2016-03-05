@@ -6,17 +6,9 @@
 </head>
 <body ng-app="myApp">
 
-
-  <div layout="column" layout-fill>
-    <md-toolbar>
-      <div class="md-toolbar-tools">
-        <span>Wo hin?</span>
-      </div>
-    </md-toolbar>
-    <md-content>
-      <ng-view></ng-view>
-    </md-content>
-  </div>
+  <layout>
+    <ng-view></ng-view>
+  </layout>
   
   <script src="node_modules/systemjs/dist/system.js"></script>
   <script src="config.js"></script>
