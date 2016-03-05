@@ -1,0 +1,22 @@
+{
+  "name": "wo-hin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeforNiederrhein/wo-hin.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeforNiederrhein/wo-hin/issues"
+  },
+  "homepage": "https://github.com/CodeforNiederrhein/wo-hin#readme",
+  "dependencies": {
+    "node-fetch": "^1.3.3"
+  }
+}
