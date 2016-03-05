@@ -14,7 +14,10 @@ function covert_obj_to_geo_json(obj) {
       "coordinates": [obj.SLat, obj.SLng]
     },
     "properties": {
-      "name": obj.DocName
+      "name": obj.DocName,
+      "description": obj.Kurztext,
+      "img_thumb": obj.Thumb
+
     }
   }
 }
